@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/png"
+     href="tab.jpg" />
+
+
+<title>Branson Ng - Contacts</title>
+<style> 
+
+  body {
+  background-color:#dfcfbe;
+
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>BRANSON NG</b> </a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+<a href="about.html" title="Click to view About" class="w3-bar-item w3-button">about</a>
+<a href="project.html"title="Click to view projects" class="w3-bar-item w3-button">projects</a>
+ <a href="contacts.html"title="Click to view contacts" class="w3-bar-item w3-button">contacts</a>
+<a href="certificate.html" title="Click to view Certificates" class="w3-bar-item w3-button">certificate</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="pika.gif" class="w3-round w3-image w3-opacity-min" alt="me" width="550" height="750"  style="padding-top: 100px">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center"><i> contact me </i></h1><br>
+      <br>
+      <br><br><br>
+
+
+<h3><i> mobile number : <div class = "under"> 91151023</div></a></h3> </i>
+
+<h3><i> email : <div class = "under">  branson1188@gmail.com </div></a></h3> </i>
+
+<h3><i> <a href="https://github.com/bransoonnn">github</a></h3> </i>
+
+<h3><i> <a href="https://www.linkedin.com/in/branson-ng-83317a1b3/">linkedin</a></h3> </i>
+
+
+
+<div class = "form" >
+<button class="open-button" onclick="openForm()">Email Me!</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>Send an Email</h2>
+
+
+
+ <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+ <label for="email">E-Mail</label>
+ <br>
+ <br>
+    <input type="email" id="email" name="email" placeholder="Your Email..">
+    <br>
+  <label for="purpose">Purpose Of Email</label>
+  <br>
+    <input type="radio" id="html" name="purpose" value="collaboration">
+<label for="html">Collaboration</label><br>
+<input type="radio" id="css" name="purpose" value="personal message">
+<label for="css">Personal Message</label><br>
+<input type="radio" id="javascript" name="purpose" value="others">
+<label for="javascript">Other</label>
+    <br>
+    <br>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    
+    <button onclick="myFunction()"><a href="mailto:branson1188@gmail.com">Send Email</button>
+    
+
+
+      </form>
+
+</div>
+</div>
+<script src="contact.js"></script>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+
+  </body>
+  </html>
